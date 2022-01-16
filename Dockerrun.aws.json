@@ -3,7 +3,7 @@
     "containerDefinitions": [
       {
         "name": "mongo",
-        "image": "km2411/flask-mongo-aws:latest",
+        "image": "14023/flask-mongo-aws-myy:latest",
         "essential": true,
         "memory": 200,
         "cpu": 1,
@@ -17,7 +17,7 @@
       
       {
         "name": "nginx",
-        "image": "km2411/flask-nginx-aws:latest",
+        "image": "14023/flask-nginx-aws-myy:latest",
         "environment": [],
         "essential": true,
         "memory": 200,
@@ -36,7 +36,7 @@
 
     {
       "name": "service-2",
-      "image": "km2411/flask-service2-aws:latest",
+      "image": "14023/flask-service2-aws-myy:latest",
       "essential": true,
       "memory": 200,
       "cpu": 1,
@@ -63,7 +63,7 @@
 
       {
         "name": "service-1",
-        "image": "km2411/flask-service1-aws:latest",
+        "image": "14023/flask-service1-aws-myy:latest",
         "essential": true,
         "memory": 200,
         "cpu": 1,
